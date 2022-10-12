@@ -46,6 +46,6 @@ jobs:
       - image: circleci/node:latest
     steps:
       - run: 
-        name: print hello
-        command: echo hello world to new conection
+        name: print-hello
+        command: echo "hello world to new conection"
   
