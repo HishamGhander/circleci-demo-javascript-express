@@ -45,5 +45,8 @@ jobs:
     docker:
       - image: circleci/node:latest
     steps:
-      - run: echo "hello world to new conection"
+      - checkout
+      - run:
+          name: print-hello
+          command: 'echo hello to new connection'
   
